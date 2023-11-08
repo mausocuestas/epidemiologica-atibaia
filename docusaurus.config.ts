@@ -20,8 +20,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'pt-br',
-    locales: ['pt-br'],
+    defaultLocale: 'pt',
+    locales: ['pt'],
   },
 // para navbar: 1) presets para definir o doc padrão 2) plugin-content-docs 3) navbar
   presets: [
@@ -152,7 +152,7 @@ const config: Config = {
             },
             {
               label: 'Doenças e Agravos',
-              to: '/doenca/intro',
+              to: '/doencas/intro',
             },
           ],
         },
