@@ -1,3 +1,39 @@
+pat:
+  name: Patrícia S Silveira
+  title: Gerente da DVE
+  image_url: https://drive.google.com/uc?id=12HAueXz8tqizvZRrio73d2VsXOuA7Wrt
+
+equipe:
+  name: Equipe SMS
+  title: Técnicos da Secretaria de Saúde
+  image_url: https://drive.google.com/uc?id=1BXJ-ZPkHrTsK9HxyIAq62dZt4RjQbNRP
+
+lari:
+  name: Larissa Funatsu
+  title: Enfermeira da DVE
+  image_url: https://drive.google.com/uc?id=1fqqNVFF6ZgaRRNgaAZNbSttEg7jH6bEI
+
+helo:
+  name: Heloísa Bordin
+  title: Enfermeira da DVE
+  image_url: https://drive.google.com/uc?id=1BvNJ0oCro0SE3q1a2jJio3H5upzAaOO1
+
+gabriel:
+  name: Gabriel Moreno
+  title: Comunicação
+  image_url: https://drive.google.com/uc?id=1R_37fdxhVcCEyQRO4U9m5wmfFgnpaU0p  
+
+Amelinha:
+  name: Amelinha
+  title: Comunicação
+  image_url: https://drive.google.com/uc?id=1R_37fdxhVcCEyQRO4U9m5wmfFgnpaU0p  
+
+Fuzetto:
+  name: Mauro Fuzetto
+  title: PPTO
+  image_url: https://drive.google.com/uc?id=1R_37fdxhVcCEyQRO4U9m5wmfFgnpaU0p  
+# https://drive.google.com/uc?id=
+
 endi:
   name: Endilie Yacop Sucipto
   title: Maintainer of Docusaurus

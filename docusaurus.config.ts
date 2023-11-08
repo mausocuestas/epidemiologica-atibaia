@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'DVE-Atibaia',
-  tagline: 'Mosquitos are cool',
+  tagline: 'Bacteria are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -70,14 +70,23 @@ const config: Config = {
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'doencas',
+        path: 'doencas',
+        routeBasePath: 'doencas',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
     
   ],
 
   themeConfig: {
     announcementBar: {
-      id: 'support_us',
+      id: 'construcao',
       content:
-        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+        'Em construção',
       backgroundColor: '#fafbfc',
       textColor: '#091E42',
       isCloseable: false,
@@ -89,7 +98,7 @@ const config: Config = {
       title: 'DVE',
       logo: {
         alt: 'Logo da Epidemiológica Atibaia',
-        src: 'img/logo.svg',
+        src: 'img/favicon.ico',
       },
 
       // https://stackoverflow.com/questions/60783595/is-there-a-way-to-have-two-docs-in-docusaurus-2/68162605#68162605
@@ -113,12 +122,12 @@ const config: Config = {
           activeBaseRegex: `/orienta/`,
         },
         {
-          to: '/forms/intro',    // ./docs/Intro.md
-          label: 'Formulários',
+          to: '/doencas/intro',    // ./docs/Intro.md
+          label: 'Doenças e Agravos',
           position: 'left',
-          activeBaseRegex: `/forms/`,
+          activeBaseRegex: `/doencas/`,
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'right'},
       ],
     },
 
@@ -127,11 +136,23 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'DVE',
           items: [
             {
               label: 'Formulários',
+              to: '/forms/intro',
+            },
+            {
+              label: 'Documentos',
               to: '/docs/intro',
+            },
+            {
+              label: 'Orientações',
+              to: '/orienta/intro',
+            },
+            {
+              label: 'Doenças e Agravos',
+              to: '/doenca/intro',
             },
           ],
         },
