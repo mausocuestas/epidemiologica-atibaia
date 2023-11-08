@@ -86,11 +86,13 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Home',
+      title: 'DVE',
       logo: {
         alt: 'Logo da Epidemiológica Atibaia',
         src: 'img/logo.svg',
       },
+
+      // https://stackoverflow.com/questions/60783595/is-there-a-way-to-have-two-docs-in-docusaurus-2/68162605#68162605
       items: [
         {
           to: '/forms/intro',    // ./docs/Intro.md
@@ -109,6 +111,12 @@ const config: Config = {
           label: 'Orientações',
           position: 'left',
           activeBaseRegex: `/orienta/`,
+        },
+        {
+          to: '/forms/intro',    // ./docs/Intro.md
+          label: 'Formulários',
+          position: 'left',
+          activeBaseRegex: `/forms/`,
         },
         {to: '/blog', label: 'Blog', position: 'left'},
       ],
