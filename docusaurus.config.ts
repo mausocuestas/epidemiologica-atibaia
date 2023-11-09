@@ -133,12 +133,12 @@ const config: Config = {
           position: 'left',
           activeBaseRegex: `/doencas/`,
         },
-        {
-        type: 'doc',
-        position: 'left',
-        docId: 'intro',
-        label: 'Docs',
-      },
+        // {
+        //   to: '/docs/boletins/intro',    // ./docs/Intro.md
+        //   label: 'Boletins',
+        //   position: 'left',
+        //   activeBaseRegex: `/boletins/intro`,
+        // },
         {to: '/blog', label: 'Blog', position: 'right'},
       ],
     },
