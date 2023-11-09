@@ -89,7 +89,7 @@ const config: Config = {
         'Em construção',
       backgroundColor: '#b751bd',
       textColor: '#FFF8E6',
-      isCloseable: false,
+      isCloseable: true,
     },
 
     // Replace with your project's social card
@@ -169,18 +169,18 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Atibaia',
           items: [
             {
-              label: 'Stack Overflow',
+              label: 'Site da Prefeitura',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: 'Discord',
+              label: 'Carta de Serviços',
               href: 'https://discordapp.com/invite/docusaurus',
             },
             {
-              label: 'Twitter',
+              label: 'Unidades de Saúde',
               href: 'https://twitter.com/docusaurus',
             },
           ],

@@ -10,32 +10,31 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Age preventivamente',
+    Svg: require('@site/static/img/undraw_medical_care_movn.svg').default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      <> 
+    A Vigilância Epidemiológica identifica as doenças antes que causem grandes estragos.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Super-herói invisível',
+    Svg: require('@site/static/img/undraw_super_woman_dv-0-y.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+    Monitora padrões de doenças, identifica surtos, e ajuda a criar estratégias 
+    para impedir que a saúde da cidade fique doente.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Proteção',
+    Svg: require('@site/static/img/undraw_security_on_re_e491.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+    É como o escudo protetor, possibilitando 
+    que todos possam viver com mais saúde e tranquilidade.
       </>
     ),
   },
