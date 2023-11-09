@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'DVE-Atibaia',
-  tagline: 'Bacteria are cool',
+  title: 'Vigilância Epidemiológica - Atibaia',
+  tagline: 'Vaccines are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -87,8 +87,8 @@ const config: Config = {
       id: 'construcao',
       content:
         'Em construção',
-      backgroundColor: '#fafbfc',
-      textColor: '#091E42',
+      backgroundColor: '#b751bd',
+      textColor: '#FFF8E6',
       isCloseable: false,
     },
 
@@ -103,6 +103,12 @@ const config: Config = {
 
       // https://stackoverflow.com/questions/60783595/is-there-a-way-to-have-two-docs-in-docusaurus-2/68162605#68162605
       items: [
+        // {
+        // type: '/forms',
+        // position: 'left',
+        // docId: 'intro.mdx',
+        // label: 'Formulários X',
+        // },
         {
           to: '/forms/intro',    // ./docs/Intro.md
           label: 'Formulários',
@@ -127,6 +133,12 @@ const config: Config = {
           position: 'left',
           activeBaseRegex: `/doencas/`,
         },
+        {
+        type: 'doc',
+        position: 'left',
+        docId: 'intro',
+        label: 'Docs',
+      },
         {to: '/blog', label: 'Blog', position: 'right'},
       ],
     },

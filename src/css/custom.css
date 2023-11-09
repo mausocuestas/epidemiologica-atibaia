@@ -5,29 +5,53 @@
  */
 
 /* You can override the default Infima variables here. */
+/* https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima */
+
 :root {
-  --ifm-color-primary: #87339e;
-  --ifm-color-primary-dark: #792e8e;
-  --ifm-color-primary-darker: #732b86;
-  --ifm-color-primary-darkest: #5f246f;
-  --ifm-color-primary-light: #9538ae;
-  --ifm-color-primary-lighter: #9b3bb6;
-  --ifm-color-primary-lightest: #ab4bc5;
-  --ifm-code-font-size: 90%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #51bdb7;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
 }
 
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* :root {
+  --ifm-color-primary: #2b452b;
+  --ifm-color-primary-dark: #273e27;
+  --ifm-color-primary-darker: #253b25;
+  --ifm-color-primary-darkest: #2b452b;
+  --ifm-color-primary-light: #2f4c2f;
+  --ifm-color-primary-lighter: #314f31;
+  --ifm-color-primary-lightest: #2f4c2f;
+  --ifm-code-font-size: 90%;
+  --docusaurus-highlighted-code-line-bg: rgba(253, 253, 252, 0.1);
+} */
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #e3d2f3;
-  --ifm-color-primary-dark: #cdaee9;
-  --ifm-color-primary-darker: #c29ce5;
-  --ifm-color-primary-darkest: #a067d6;
-  --ifm-color-primary-light: #f9f6fd;
+/* [data-theme='dark'] {
+  --ifm-color-primary: #eafc42;
+  --ifm-color-primary-dark: #c9d0da;
+  --ifm-color-primary-darker: #bcc3d0;
+  --ifm-color-primary-darkest: #929fb4;
+  --ifm-color-primary-light: #ffffff;
   --ifm-color-primary-lighter: #ffffff;
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
+} */
 
 /* @media screen and (max-width: 996px) {
   :root {
