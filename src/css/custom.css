@@ -54,15 +54,15 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 } */
 
-/* @media screen and (max-width: 996px) {
+@media screen and (max-width: 996px) {
   :root {
-    --ifm-font-size-base: 18px;
+    --ifm-font-size-base: 16px;
   }
   article header h1 {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
   }
   .hero .hero__title {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -71,6 +71,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     --ifm-font-size-base: 17px;
   }
   article header h1 {
-    font-size: 2rem !important;
+    font-size: 0.5rem !important;
   }
-} */
+}

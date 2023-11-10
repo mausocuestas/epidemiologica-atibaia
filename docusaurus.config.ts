@@ -64,6 +64,15 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'boletins',
+        path: 'boletins',
+        routeBasePath: 'boletins',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'orienta',
         path: 'orienta',
         routeBasePath: 'orienta',
@@ -106,18 +115,33 @@ const config: Config = {
         // {
         // type: '/forms',
         // position: 'left',
-        // docId: 'intro.mdx',
+        // docId: 'intro', // O ID do documento ao qual este item está vinculado.
         // label: 'Formulários X',
         // },
         {
-          to: '/forms/intro',    // ./docs/Intro.md
+          to: '/forms/intro',    //Roteamento do lado do cliente, usado para navegar no site. O baseUrl será automaticamente anexado a esse valor.
           label: 'Formulários',
           position: 'left',
-          activeBaseRegex: `/forms/`,
+          // activeBaseRegex => alternativa para activeBasePath. Para casos 
+          // em que um link deve estar ativo em vários caminhos diferentes (como quando você tem 
+          // várias pastas de documentos na mesma barra lateral)
+          activeBaseRegex: `/forms/`,  
+        },
+        {
+          to: '/boletins/intro',    // ./docs/Intro.md
+          label: 'Boletins',
+          position: 'left',
+          activeBaseRegex: `/boletins`,
+        },
+        {
+          to: '/doencas/intro',    // ./docs/Intro.md
+          label: 'Doenças e Agravos',
+          position: 'left',
+          activeBaseRegex: `/doencas/`,
         },
         {
           to: '/docs/intro',    // ./docs-api/Intro.md
-          label: 'Documentos',
+          label: 'Legislação',
           position: 'left',
           activeBaseRegex: `/docs/`,
         },
@@ -127,19 +151,7 @@ const config: Config = {
           position: 'left',
           activeBaseRegex: `/orienta/`,
         },
-        {
-          to: '/doencas/intro',    // ./docs/Intro.md
-          label: 'Doenças e Agravos',
-          position: 'left',
-          activeBaseRegex: `/doencas/`,
-        },
-        // {
-        //   to: '/docs/boletins/intro',    // ./docs/Intro.md
-        //   label: 'Boletins',
-        //   position: 'left',
-        //   activeBaseRegex: `/boletins/intro`,
-        // },
-        {to: '/blog', label: 'Blog', position: 'right'},
+        {to: '/blog', label: 'Blog', position: 'left'},
       ],
     },
 
@@ -173,15 +185,15 @@ const config: Config = {
           items: [
             {
               label: 'Site da Prefeitura',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://www.atibaia.sp.gov.br/',
             },
             {
               label: 'Carta de Serviços',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'http://cartadeservicos.atibaia.sp.gov.br/saude/',
             },
             {
               label: 'Unidades de Saúde',
-              href: 'https://twitter.com/docusaurus',
+              href: 'http://cartadeservicos.atibaia.sp.gov.br/saude/locais/category/unidades-de-sa%C3%BAde',
             },
           ],
         },
