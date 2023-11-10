@@ -100,6 +100,11 @@ const config: Config = {
       textColor: '#FFF8E6',
       isCloseable: true,
     },
+    
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 5,
+    },
 
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
