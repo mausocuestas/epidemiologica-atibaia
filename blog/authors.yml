@@ -4,8 +4,8 @@ pat:
   image_url: https://drive.google.com/uc?id=12HAueXz8tqizvZRrio73d2VsXOuA7Wrt
 
 equipe:
-  name: Equipe SMS
-  title: Técnicos da Secretaria de Saúde
+  name: Equipe DVE
+  title: Técnicos da DVE
   image_url: https://drive.google.com/uc?id=1BXJ-ZPkHrTsK9HxyIAq62dZt4RjQbNRP
 
 lari:
@@ -21,17 +21,17 @@ helo:
 gabriel:
   name: Gabriel Moreno
   title: Comunicação
-  image_url: https://drive.google.com/uc?id=1R_37fdxhVcCEyQRO4U9m5wmfFgnpaU0p  
+  image_url: https://drive.google.com/uc?id=1R_37fdxhVcCEyQRO4U9m5wmfFgnpaU0p
 
 Amelinha:
   name: Amelinha
   title: Comunicação
-  image_url: https://drive.google.com/uc?id=1R_37fdxhVcCEyQRO4U9m5wmfFgnpaU0p  
+  image_url: https://drive.google.com/uc?id=1R_37fdxhVcCEyQRO4U9m5wmfFgnpaU0p
 
 Fuzetto:
   name: Mauro Fuzetto
   title: PPTO
-  image_url: https://drive.google.com/uc?id=1R_37fdxhVcCEyQRO4U9m5wmfFgnpaU0p  
+  image_url: https://drive.google.com/uc?id=1R_37fdxhVcCEyQRO4U9m5wmfFgnpaU0p
 # https://drive.google.com/uc?id=
 
 endi:
