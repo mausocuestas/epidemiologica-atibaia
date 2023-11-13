@@ -5,6 +5,8 @@ sidebar_position: 2
 # Dengue
 > Entendendo a doença transmitida por mosquitos
 
+Dengue é uma doença infecciosa febril aguda.
+
 <details>
   <summary><strong>Propagação</strong></summary>
    <p>A dengue é uma doença viral transmitida principalmente pelos mosquitos <em>Aedes aegypti</em>. Esses insetos se reproduzem em áreas com água parada, como recipientes, pneus e vasos, tornando o controle do vetor essencial. A propagação da dengue é prevalente em regiões tropicais e subtropicais, onde as condições climáticas favorecem a reprodução do mosquito transmissor.</p>
