@@ -13,6 +13,10 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
+  future: {
+    experimental_faster: true,
+  },
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
